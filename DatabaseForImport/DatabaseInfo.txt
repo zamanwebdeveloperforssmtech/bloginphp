@@ -1,0 +1,6 @@
+DB: zamanweb_developer
+User: zamanweb_user
+Pass: nS%tXFmja7*j
+
+admin user = Zaman
+admin password = zamanisadmin

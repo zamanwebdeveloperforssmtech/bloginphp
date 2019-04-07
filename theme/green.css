@@ -1,0 +1,74 @@
+.headersection, .footersection { background: #008000 none repeat scroll 0 0; }
+    .icon a { background: #2DAD2D none repeat scroll 0 0; }
+    .searchbtn input[type="text"] { background: #46C646; border: 1px solid #196B19; }
+    .searchbtn input[type="submit"] {
+        border: 1px solid #267326;
+    }
+    input[type="submit"] {
+        background: #064906 none repeat scroll 0 0;
+        border: 1px solid #267326;
+    }
+    .searchbtn input[type="submit"]:hover {
+        background: #46C646 none repeat scroll 0 0;
+        border: 1px solid #1B6A1B;
+    }
+    .navsection {
+        background: none repeat scroll 0 0 #49C949;
+    }
+    .navsection ul li {
+        border-left: 1px solid #2B492B;
+        border-right: 1px solid #24A424;
+    }
+    .samepost h2 a {
+        color: #11ac2e;
+    }
+    .maincontent, .sidebar { background: #A0FFA0 none repeat scroll 0 0; }
+    .samepost img {
+        border: 1px solid #49C949;
+    }
+    .contentsection {
+        border: 1px solid #49C949;
+    }
+    .samesidebar h2 {
+        background: #49C949 none repeat scroll 0 0;
+        border-bottom: 2px solid #008000;
+        color: #fff;
+    }
+    .readmore a {
+        border: 1px solid #49C949;
+        color: #49C949;
+    }
+    .readmore a:hover {
+        color: #4C710F;
+    }
+    .pagination a {
+        background: #49C949;
+        border: 1px solid #008000;
+    }
+    .pagination a:hover {
+        background: #008000;
+        border: 1px solid #49C949;
+        color: #fff;
+    }
+    .footermenu ul li a {
+        color: #49C949;
+    }
+    .samepost h2, .about h2 {
+        color: #008000;
+    }
+    .about img {
+        border: 1px solid #008000;
+    }
+    .relatedpost h2 {
+        background: #49C949 none repeat scroll 0 0;
+        border-bottom: 2px solid #008000 !important;
+    }
+    .samesidebar ul li a {
+        color: #008000;
+    }
+    .samesidebar ul li a:hover {
+        color: #73CC3D;
+    }
+    .popular img {
+        border: 1px solid #49C949;
+    }
