@@ -37,11 +37,13 @@
                         <input <?php if ($result['theme'] == 'green'){echo "checked";}?> type="radio" name="theme" value="green"/>Green
                     </td>
                 </tr>
+                <!--
                 <tr>
                     <td>
-                        <input <?php if ($result['theme'] == 'blue'){echo "checked";}?> type="radio" name="theme" value="blue"/>Blue
+                        <input <?php //if ($result['theme'] == 'blue'){echo "checked";}?> type="radio" name="theme" value="blue"/>Blue
                     </td>
                 </tr>
+                -->
                 <tr>
                     <td>
                         <input type="submit" name="submit" Value="Change" />
