@@ -56,13 +56,25 @@
     <div class="container_12">
         <div class="grid_12 header-repeat">
             <div id="branding">
+                <?php
+                    $query = "SELECT * FROM title_slogan WHERE id='1'";
+                    $blog_title = $db->select($query);
+                    if ($blog_title) {
+                        while ($result = $blog_title->fetch_assoc()) {
+                ?>
+                
                 <div class="floatleft logo">
-                    <img src="img/livelogo.png" alt="Logo" />
+
+                    <img src="<?php echo $result['logo'];?>" alt="Logo"/>
 				</div>
 				<div class="floatleft middle">
-					<h1>Zaman Web Developer</h1>
-					<p><a href="http://zamanwebdeveloper.com/" target="_blank">www.zamanwebdeveloper.com</a></p>
+					<h2 style="color:#fff;"><?php echo $result['title'];?></h2>
+					<p><?php echo $result['slogan'];?></p>
 				</div>
+                <?php
+                        }
+                    }
+                ?>
                 <div class="floatright">
                     <div class="floatleft">
                         <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
